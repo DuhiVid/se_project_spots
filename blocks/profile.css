@@ -27,10 +27,12 @@
   margin-right: auto;
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .profile__edit-btn-icon {
   padding-right: 2.89px;
+
 }
 
 .profile__add-btn {
@@ -45,7 +47,7 @@
   height: 52px;
   border: none;
   border-radius: 8px;
-
+  cursor: pointer;
 
 }
 
@@ -122,11 +124,13 @@ text-overflow: ellipsis;
   .profile__add-btn {
     margin: 0;
     width: 100%;
+    cursor: pointer;
   }
 
   .profile__edit-btn {
     margin: 0;
     width: 100%;
+    cursor: pointer;
   }
 
 
