@@ -53,6 +53,7 @@
   border: none;
   border-radius: 8px;
   opacity: 1;
+  max-width: 149px;
 }
 
 .profile__add-btn:hover {
@@ -69,9 +70,9 @@
   max-width: 420px;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .profile__description {
@@ -81,9 +82,9 @@
   max-width: 420px;
   text-overflow: ellipsis;
   overflow: hidden;
-  line-clamp: 3;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
   font-size: 16px;
 }
 
