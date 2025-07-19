@@ -43,14 +43,13 @@ function handleAddCardSubmit(evt) {
 }
 
 function closeModal(modal) {
-  modal.style.opacity = "0";
-
-  setTimeout(() => {
-    modal.classList.remove("modal_is-opened");
-    modal.style.opacity = "";
-
-  }, 300);
+  modal.classList.remove("modal_is-opened");
 }
+
+function openModal(modal) {
+  modal.classList.add("modal_is-opened");
+}
+
 
 addCardFormElement.addEventListener("submit", handleAddCardSubmit);
 
