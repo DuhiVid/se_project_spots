@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   padding: 10px;
-  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
   pointer-events: none;
   opacity: 0;
 }
@@ -50,7 +50,7 @@
 
 .modal__title {
   font-weight: 500;
-  size: 32px;
+  font-size: 32px;
   color: #212121;
   line-height: 1;
   margin: 0;
@@ -113,5 +113,15 @@
   .modal__input {
     font-size: 16px;
     font-weight: 500px;
+  }
+  .modal__container {
+    padding: 16px 8px;
+  }
+  .modal__submit-btn {
+    max-width: none;
+  }
+  .modal__close-btn {
+    padding: 0;
+    right: 10px;
   }
 }
