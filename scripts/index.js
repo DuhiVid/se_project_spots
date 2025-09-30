@@ -41,7 +41,7 @@ const editProfileDescriptionInput = editProfileModal.querySelector("#profile-des
 const newPostBtn = document.querySelector(".profile__add-btn");
 const newPostModal = document.querySelector("#new-post-modal");
 const addCardFormElement = newPostModal.querySelector(".modal__form");
-const nameInput = newPostModal.querySelector("#caption-input");
+const captionInput = newPostModal.querySelector("#caption-input");
 const linkInput = newPostModal.querySelector("#card-image-input");
 const newPostCloseBtn = newPostModal.querySelector(".modal__close-btn");
 
@@ -117,12 +117,12 @@ previewModalCloseBtn.addEventListener("click", function () {
 
 
 
-// CLOSE MODAL FUNCTION!!!!
+// Close modal function
 function closeModal(modal) {
   modal.classList.remove("modal_is-opened");
 }
 
-// OPEN MODAL FUNCTION!!!
+// Open modal function
 function openModal(modal) {
   modal.classList.add("modal_is-opened");
 }
@@ -132,7 +132,7 @@ function handleAddCardSubmit(evt) {
   evt.preventDefault();
 
   const cardElement = getCardElement({
-    name: nameInput.value, // caption input
+    name: captionInput.value, // caption input
     link: linkInput.value, // image link input
   });
 
