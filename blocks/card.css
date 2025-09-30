@@ -41,7 +41,11 @@
   right: 10px;
   background-color: transparent;
   border: none;
-  
+  cursor: pointer;
+}
+
+.card__delete-btn:hover {
+  background-image: url(../images/delete-hover.svg);
 }
 
 .card__like-btn {
